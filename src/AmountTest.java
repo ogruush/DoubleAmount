@@ -54,11 +54,11 @@ public class AmountTest {
 		int expectedNickels = 0;
 		int expectedPennies = 0;
 		
-		assertEquals("dollars should be equals 11", expectedDollars, calDollars);
-		assertEquals("quarters should be equals 2", expectedQuarters, calQuarters);
+		assertEquals("dollars should be equals 0", expectedDollars, calDollars);
+		assertEquals("quarters should be equals 0", expectedQuarters, calQuarters);
 		assertEquals("dimes should be equals 0", expectedDime, calDime);
-		assertEquals("nickels should be equals 1", expectedNickels, calNickels);
-		assertEquals("pennies should be equals 1", expectedPennies, calPennies);
+		assertEquals("nickels should be equals 0", expectedNickels, calNickels);
+		assertEquals("pennies should be equals 0", expectedPennies, calPennies);
 	}
 	
 	

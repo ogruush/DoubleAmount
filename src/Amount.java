@@ -1,4 +1,5 @@
 import java.lang.IllegalArgumentException;
+
 public class Amount {
 	
 	private int amount=0;
